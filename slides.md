@@ -45,19 +45,13 @@ paginate: false
 
 ## The memory leak is confirmed ✔️
 
-TODO: add the SSS heap picture 
+![bg](https://upload.wikimedia.org/wikipedia/commons/e/ea/Thats_all_folks.svg)
 
 ---
 
 ## ...and no memory leak for the other app
 
 TODO: add the PM heap picture 
-
----
-
-## TODO
-
-TODO: add the SSS object alocation picture
 
 ---
 
@@ -70,6 +64,12 @@ TODO: add the SSS threat stat picture
 ## TODO
 
 TODO: add the PM threat stat picture
+
+---
+
+## TODO
+
+TODO: add the SSS object alocation picture
 
 ---
 
