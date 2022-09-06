@@ -1,9 +1,9 @@
 ---
+marp: true
 theme: uncover
-_class: lead
-paginate: false
-# backgroundColor: #fff
-# backgroundImage: url('bg.jpg')
+paginate: true
+style:|
+ text-align: left
 ---
 
 
@@ -43,85 +43,140 @@ paginate: false
 
 ---
 
-## The memory leak is confirmed ✔️
+## **The leak is confirmed ✔️**
 
-![bg](https://upload.wikimedia.org/wikipedia/commons/e/ea/Thats_all_folks.svg)
-
----
-
-## ...and no memory leak for the other app
-
-TODO: add the PM heap picture 
+![h:500 center](sss_heap.png)
 
 ---
 
-## TODO
+## **...and no memory leak for the other app**
 
-TODO: add the SSS threat stat picture
-
----
-
-## TODO
-
-TODO: add the PM threat stat picture
+![h:500 center](pm_heap.png)
 
 ---
 
-## TODO
+## **The number of threads is suspiciously high**
 
-TODO: add the SSS object alocation picture
+![h:500 center](sss_threads.png)
+
+---
+
+## **...and only 11 threads for the other app**
+
+![h:500 center](pm_threads.png)
+
+---
+
+## **Huge number of virtual threads**
+
+![h:500 center](sss_objects.png)
 
 ---
 
 ## **Investigation continues🕵️**
 
 1. Disable the tests one by one to find the problematic ones
-2. ➡️The memory leak occur on the tests with injected Akka actor systems
+2. **Findings:** The memory leak occur on the tests with injected Akka actor systems
 
 ---
 
-## About Cucumber 🥒
+## **About Cucumber 🥒**
 
-TODO: describe how the BDD tests are implemented, (Cucumber has scenarios and test scenarios)
+It allows to write a human-readable specifications for features (even managers can read it!😯) using *Gherkin*
 
----
+```
+Feature: manage contract types
+  As a job seeker
+  I want to add my contract types to my profile
+  So that I can receive job suggestions that match my desired contract type
 
-## About Cucumber 🥒
-
-TODO: describe hot Cucuber creates all the defined steps for each test scenario, which means it creates an actor system per each test scenario
-
----
-
-## TODO
-
-1. TODO: 
-2. The Akka actor system is created per each scenario
-3. Jenkins crashes 👨🔫
+Scenario: Cannot change contract types to value other than whitelist
+    Given I have a profile
+    When I change my contract types to "Ebenezer"
+    Then I am notified that this contract type is invalid
+```
 
 ---
 
-## Short term solution
+## **About Cucumber 🥒**
 
-Make the val volatile:
-TODO: add the code snippet
+A specification consist of scenarios:
+
+```
+Scenario: Cannot change contract types to value other than whitelist
+    Given I have a profile
+    When I change my contract types to "Ebenezer"
+    Then I am notified that this contract type is invalid
+```
 
 ---
 
-## Long term solution
+## **About Cucumber 🥒**
 
-Rewrite the BDD tests to unit-tests: they make it easy to shoot yourself in the foot
+For each scenario we define steps:
 
-Besides: 
+1. **Given** I have a profile
+2. **When** I change my contract types to "Ebenezer"
+3. **Then** I am notified that this contract type is invalid
+
+---
+
+## **About Cucumber 🥒**
+
+Each step must be matched to a code block called *step definition*
+
+In Gherkin:
+
+```
+    When I change my contract types to "Ebenezer"
+```
+
+In Scala:
+
+```
+  When("""^I change my contract types to "([^"]*)"$""") {
+    ...
+  }
+
+```
+
+## **About Cucumber 🥒**
+
+Cucumber initialize **all the step definitions** for for each scenario to find the matches!
+
+---
+
+## **The case is solved🕵**
+
+1. We hava an Akka actor system in a step definition
+2. We have more than 100 BDD test scenarios
+3. The actor system is initialized per each scenario
+4. Jenkins crashes 👨🔫
+
+---
+
+## **Short term solution**
+
+Make the Akka actor system volatile to prevent it re-initialization per each scenario
+
+---
+
+## **Long term solution**
+
+Rewrite the BDD tests to unit-tests:
+
+* They make it easy to shoot yourself in the foot
 * We don't use advantages of the BDD apoach (managers don't read the code)
 * It's harder to implement them
-* A small bonus: The pipeline runs became ~2min shorter after the refactoring
+
+P.S.: The pipeline runs became ~2min shorter after the refactoring
 
 ---
 
-## Lessons learned
+## **Lessons learned**
 
 * Be careful with alocating heavy instances in tests
-* "Finish what you start", deallocate a resourse after stop using it
+* *"Finish what you start"*, deallocate a resourse after stop using it
 
 ---
 
