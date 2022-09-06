@@ -15,23 +15,23 @@ style:|
 
 ## **The Problem**
 
-* The StreamTeam CI-pipelines started to stuck on a daily baisis
-* It happened because of sudden crashes of the Jenkins node
+- The StreamTeam CI-pipelines started to stuck on a daily baisis
+- It happened because of sudden crashes of the Jenkins node
 
 ---
 
 ## **First findings**
 
-* The Jenkins node crashes when it builds the saved searches service application
-* The saved searches service builds stuck while running the BDD tests
+- The Jenkins node crashes when it builds the saved searches service application
+- The saved searches service builds stuck while running the BDD tests
 
 ---
 
 ## **About the saved search service**
 
-* A Scala application
-* Uses Axon framework
-* BDD tests are implemented using Cucumber🥒
+- A Scala application
+- Uses Axon framework
+- BDD tests are implemented using Cucumber🥒
 
 ---
 
@@ -82,7 +82,7 @@ style:|
 
 ## **About Cucumber 🥒**
 
-It allows to write a human-readable specifications for features (even managers can read it!😯) using *Gherkin*
+It allows to write a human-readable specifications (even managers can read it!😯) using *Gherkin*
 
 ```
 Feature: manage contract types
@@ -140,6 +140,8 @@ In Scala:
 
 ```
 
+---
+
 ## **About Cucumber 🥒**
 
 Cucumber initialize **all the step definitions** for for each scenario to find the matches!
@@ -165,18 +167,18 @@ Make the Akka actor system volatile to prevent it re-initialization per each sce
 
 Rewrite the BDD tests to unit-tests:
 
-* They make it easy to shoot yourself in the foot
-* We don't use advantages of the BDD apoach (managers don't read the code)
-* It's harder to implement them
+- They make it easy to shoot yourself in the foot
+- We don't use advantages of the BDD apoach (managers don't read the code)
+- It's harder to implement them
 
-P.S.: The pipeline runs became ~2min shorter after the refactoring
+**P.S.:** The pipeline runs became ~2min shorter after the refactoring
 
 ---
 
 ## **Lessons learned**
 
-* Be careful with alocating heavy instances in tests
-* *"Finish what you start"*, deallocate a resourse after stop using it
+- Be careful with alocating heavy instances in tests
+- **"Finish what you start"**, deallocate a resourse after stop using it
 
 ---
 
