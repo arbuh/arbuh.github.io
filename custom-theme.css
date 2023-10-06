@@ -1,0 +1,17 @@
+/* custom-theme.css */
+/* @theme custom-theme */
+
+@import 'default';
+
+section {
+  background: #ffffff;
+}
+
+h1 {
+  color: #000000;
+}
+
+h2 {
+  color: #9D2235;
+}
+
