@@ -5,7 +5,7 @@ paginate: true
 ---
 
 # Latvia 🇱🇻
-![bg right](erglu-cliffs.jpg)
+![bg right](images/erglu-cliffs.jpg)
 
 ---
 
@@ -18,6 +18,10 @@ paginate: true
 
 ---
 
+# Quick facts 🚀
+
+---
+
 ## Quick facts
 
 - **Capital:** Riga
@@ -25,7 +29,7 @@ paginate: true
 - **Population:** 1,842,226 (The Netherlands: 17,933,600)
 - **The highest point:** 311.6 meters (The Netherlands: 321 meters)
 
-![bg right](latvia-map.png)
+![bg right](images/latvia-map.png)
 
 ---
 
@@ -34,9 +38,77 @@ paginate: true
 - **Average temperature in summer:** +19°C
 - **Average temperature in winter:** -6°C
 
-![bg right](winter.jpg)
+![bg right](images/winter.jpg)
 
 ---
 
-![bg](https://upload.wikimedia.org/wikip'edia/commons/e/ea/Thats_all_folks.svg)
+# Difference between the Baltic states 🇱🇹🇱🇻🇪🇪
+
+---
+
+![bg 60%](images/venn-diagramm.png)
+
+---
+
+# History 📜
+
+---
+
+![bg 50%](images/baltic-tribes.svg)
+
+---
+
+![bg 50%](images/livonia.svg)
+
+---
+
+![bg](images/teutonic.jpg)
+
+---
+
+![bg](images/luther.jpg)
+
+---
+
+![bg](images/livonian-war.jpg)
+
+---
+
+![bg](images/courland-map.jpg)
+
+---
+
+![bg 50%](images/colonies.webp)
+
+---
+
+![bg 40%](images/colonies-meme.jpg)
+
+---
+
+![bg](images/siege-of-riga.png)
+
+---
+
+![bg](images/incorporation-to-russia.jpg)
+
+---
+
+![bg](images/rundale-palace.jpg)
+
+---
+
+![bg](images/jelgava-palace.jpg)
+
+---
+
+![bg 80%](images/peterburgas-avizes.jpg)
+
+---
+
+![bg](images/ww1.webp)
+
+---
+
+![bg](images/thats-all-folks.svg)
 
