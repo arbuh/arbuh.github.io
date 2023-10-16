@@ -74,6 +74,10 @@ paginate: true
 
 ---
 
+![bg](images/livonia-end.svg)
+
+---
+
 ![bg](images/courland-map.jpg)
 
 ---
@@ -107,6 +111,82 @@ paginate: true
 ---
 
 ![bg](images/ww1.webp)
+
+---
+
+![bg](images/1-posms.jpg)
+
+---
+
+![bg](images/2-posms.jpg)
+
+---
+
+![bg](images/3-posms.jpg)
+
+---
+
+![bg](images/4-posms.jpg)
+
+---
+
+![bg](images/first_republic.jpg)
+
+---
+
+![bg](images/mr-pact.webp)
+
+---
+
+![bg](images/occupation.webp)
+
+---
+
+![bg 90%](images/ww2-1.jpg)
+
+---
+
+![bg 90%](images/ww2-2.jpg)
+
+---
+
+![bg 50%](images/courland-pocket.jpg)
+
+---
+
+![bg](images/stura-maja.jpg)
+
+---
+
+![bg](images/plavnieki.jpg)
+
+---
+
+![bg](images/raf.webp)
+
+---
+
+![bg 90%](images/vef.jpg)
+
+---
+
+![bg](images/rvr.jpg)
+
+---
+
+![bg](images/baltijas-cels.jpg)
+
+---
+
+![bg 50%](images/baltijas-cels-map.webp)
+
+---
+
+![bg](images/barikades.jpg)
+
+---
+
+![bg 90%](images/eu2004.png)
 
 ---
 
