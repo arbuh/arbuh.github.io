@@ -54,7 +54,7 @@ paginate: true
 
 ---
 
-![bg 50%](images/baltic-tribes.svg)
+![bg 70%](images/baltic-tribes.png)
 
 ---
 
@@ -74,11 +74,11 @@ paginate: true
 
 ---
 
-![bg](images/livonia-end.svg)
+![bg 80%](images/livonia-end.svg)
 
 ---
 
-![bg](images/courland-map.jpg)
+![bg 90%](images/courland-map.jpg)
 
 ---
 
@@ -90,11 +90,11 @@ paginate: true
 
 ---
 
-![bg](images/siege-of-riga.png)
+![bg 90%](images/siege-of-riga.png)
 
 ---
 
-![bg](images/incorporation-to-russia.jpg)
+![bg 90%](images/incorporation-to-russia.jpg)
 
 ---
 
@@ -102,7 +102,7 @@ paginate: true
 
 ---
 
-![bg](images/jelgava-palace.jpg)
+![bg 95%](images/jelgava-palace.jpg)
 
 ---
 
@@ -134,7 +134,7 @@ paginate: true
 
 ---
 
-![bg](images/mr-pact.webp)
+![bg 90%](images/mr-pact.webp)
 
 ---
 
@@ -190,5 +190,97 @@ paginate: true
 
 ---
 
-![bg](images/thats-all-folks.svg)
+# Fun facts 🤓
+
+---
+
+## Most popular sports
+
+The 1st place: Ice Hockey 🥇
+
+![bg right](images/hockey.jpg)
+
+---
+
+## Most popular sports
+
+The 2nd place: Basketball 🥈
+
+![bg right](images/basketball.jpg)
+
+---
+
+## Most popular sports
+
+The 3rd place: Football/Soccer  🥉
+
+![bg right](images/soccer.jpg)
+
+---
+
+## Most famous person
+
+Mark Rothko
+
+![bg right](images/rothko.webp)
+
+---
+
+## The most popular winter activity
+
+Ice fishing
+
+![bg right](images/ice-fishing.webp)
+
+---
+
+## The most popular summer/fall activity
+
+Mushroom hunting
+
+![bg right](images/mushrooms.jpg)
+
+---
+
+## The most dangerous animal
+
+A tick
+
+![bg right](images/tick.jpg)
+
+---
+
+## Most popular drink
+
+Kvass
+
+![bg right](images/kvass.webp)
+
+---
+
+## Most popular holiday
+
+Midsummer
+
+![bg right](images/midsummer.jpg)
+
+---
+
+![bg](images/midsummer-latvia.jpg)
+
+---
+
+## Most popular festival
+
+The Latvian Song and Dance Festival
+
+![bg right](images/dziesmu-svetki1.jpg)
+
+---
+
+![bg](images/dziesmu-svetki2.jpg)
+
+---
+
+![bg 60%](images/thank-you.webp)
 
