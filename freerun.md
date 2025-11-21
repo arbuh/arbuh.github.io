@@ -2,47 +2,71 @@
 marp: true
 theme: custom-theme
 paginate: true
+backgroundImage: url('images/freerun/background.png')
 ---
 
-# givemegoodcoffee©
-## \[Give-Me-Good-Coffee\]
-![bg right](images/freerun/runner.png)
+# FreeRun
+## Self-hosted sport activity tracker
+![bg right](images/freerun/home.png)
 
 ---
 
 ## Problem
 
-- item1 
+Many people use activity trackers to record their workouts.
+However, most tracker providers monetize user data as an additional revenue stream:
+
+- Your workout data is sold to cities, researchers, and commercial partners
+- Activity patterns enable targeted advertising based on your routes and habits
+- This creates privacy risks—your home location, daily routines, and health data
+
+---
+
+## You can find secret military bases via Strava
+
+![bg right](images/freerun/military-base.webp)
+
+---
+
+## But: People still like to brag about their workouts!
+
+![bg right](images/freerun/happy-runner.webp)
 
 ---
 
 ## Solution
 
-- item1 
+A self-hosted sport activity tracker with a possibility to share your workouts to selected hosts.
 
 ---
 
 ## Application
 
-- item1 
+- Front-end, preferably a mobile app 
+- A self-hosted back-end application 
 
 ---
 
-![bg 40%](images/gmgc-mobile-app.png)
+## MVP
 
----
+We can start with this functionality:
 
-## Let's make it more interesting
-
-- item1 
+- Manual workout upload or an integration with existing service
+- Workout details
+- Workout broadcasting
+- Friends activity boards
+- Likes and comments ❤️
 
 ---
 
 ## We can scale it!
 
-- item1 
+- Workout tracking for running and cycling using the front-end application
+- Add more sport activities
+- Add gear tracking
+- Add statistics, e.g. PRs, trends
 
 ---
 
-![bg 80%](images/gmgc-thank-you.jpg)
+![bg 80%](images/freerun/thank-you.png)
 
