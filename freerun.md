@@ -6,7 +6,7 @@ paginate: true
 
 # givemegoodcoffee©
 ## \[Give-Me-Good-Coffee\]
-![bg right](images/gmgc-espresso.jpg)
+![bg right](images/freerun/runner.png)
 
 ---
 
