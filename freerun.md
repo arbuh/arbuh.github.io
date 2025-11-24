@@ -7,6 +7,7 @@ backgroundImage: url('images/freerun/background.png')
 
 # FreeRun
 ## Self-hosted sport activity tracker
+via w00camp
 ![bg right](images/freerun/home.png)
 
 ---
